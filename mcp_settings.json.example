@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "ada-prod": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://example.com/api/mcp",
+        "--header",
+        "Authorization: Bearer YOUR_AUTH_TOKEN_HERE"
+      ],
+      "env": {
+        "AUTH_TOKEN": "YOUR_AUTH_TOKEN_HERE"
+      }
+    }
+  }
+}
